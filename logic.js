@@ -46,6 +46,7 @@ progress.onchange =  function () {
     song.play();
     song.currentTime = progress.value;
     play.classList.remove("fa-play");
-        play.classList.add("fa-pause");
+    play.classList.add("fa-pause");
+    img.classList.add("animate");
 
 }
