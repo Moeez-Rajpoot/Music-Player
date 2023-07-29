@@ -4,17 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/d8790da0b7.js" crossorigin="anonymous"></script>
     <title>Music Player</title>
 </head>
 <body>
 
     <div class="container">
+        <nav>
+            <div id="right-icon">
+                <i class="fa-solid fa-arrow-left"></i>
+            </div>
 
-        <div class="inner">
-            
-            
+            <div id="left-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </nav>
+        <img src="./images/music2.png" id="music-img">
+        <h2>Despasito</h2>
+        <p>Fansico T. Camro Charles </p>
+
+        <audio src="./song.mp3"  ></audio>
+
+        <input id="progress" type="range">
+        <div class="controls">
+           
+            <div><i class="fa-solid fa-backward"></i></div>
+            <div><i class="fa-solid fa-play"></i></div>
+            <div><i class="fa-solid fa-forward"></i></div>
         </div>
-
     </div>
     
     <script src="./logic.js"></script>
